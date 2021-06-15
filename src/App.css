@@ -351,11 +351,17 @@ ul{
   gap: 3em;
 }
 
-.nav-icon-container a{
+.nav-icon-container button {
   font-size: 13px;
+  border: none;
+  background-color: #fff;
 }
 
-.nav-icon-container a:hover > span{
+
+.nav-icon-container button:hover {
+  cursor: pointer;
+}
+.nav-icon-container button:hover > span{
   border-bottom: 2px solid #000;
 }
 

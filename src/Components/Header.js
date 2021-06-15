@@ -38,7 +38,7 @@ const Header = () => {
     return (
         <header>
             <div className="ms-log-container">
-                <a href="www.microsoft.com"><img className="ms-logo"src={Logo}/></a>
+                <a href="www.microsoft.com"><img className="ms-logo" src={Logo} alt="logo"/></a>
             </div>
             <div className="nav-list-wrapper">
                 <ul className="nav-item-list">
@@ -52,12 +52,12 @@ const Header = () => {
                 </ul>
             </div>
             <div className="nav-icon-container">
-                <a href="">
+                <button>
                     <span>All Microsoft</span> 
                     <i className="fa fa-chevron-down"/>
-                </a>
+                </button>
                 <ul className="nav-icon-list">
-                    <li><a href="#"><i className="fa fa-search"/></a></li>
+                    <li><i className="fa fa-search"/></li>
                     <li><a href="https://www.microsoft.com/en-in/store/cart"><i className="fa fa-shopping-cart"/></a></li>
                     <li><a href="https://www.microsoft.com/mscomhp/onerf/signin?EEL=True&pcexp=True&ru=https%3A%2F%2Fwww.microsoft.com%2Fen-in%2F"><i className="fa fa-user-circle"></i></a></li>
                 </ul>
