@@ -1,16 +1,16 @@
 Microsoft Clone Using React JS with HTML and CSS
 
 ---------------------------------------------------------------------------------------
-Author: Yogender Jangir
-Microsoft - Offical Clone Page
-Demo URL- https://gifted-curran-e2c725.netlify.app/
-Development Status: In Progress
-Objective: Learn HTML, CSS
+Author: Yogender Jangir\
+Project: Microsoft - Offical Clone Page\
+Demo URL: https://gifted-curran-e2c725.netlify.app/ \
+Development Status: In Progress\
+Objective: Learn HTML, CSS\
 Tool & Technology: React JS, HTML, CSS
-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------- 
 
-This Project is cloned from the Offical Microsoft Website https://www.microsoft.com/en-in
-for the complete purpose of learning and building a strong grip on the HTML and CSS.
+This Project is cloned from the Offical Microsoft Website https://www.microsoft.com/en-in\
+for the complete purpose of learning and building a strong grip on the HTML and CSS.\
 
 ------------------------------------------------------------------------------------------
 
