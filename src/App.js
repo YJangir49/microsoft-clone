@@ -6,6 +6,7 @@ import CartContainer from './Components/CartContainer';
 import XBoxContainer from './Components/XBoxContainer';
 import CovidInfoContainer from './Components/CovidInfoContainer';
 import SocialLinkContainer from './Components/SocialLinkContainer';
+import Footer from './Components/Footer';
 import { ProductCartData, BusinessCartData } from './Utils/data';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <CartContainer data={BusinessCartData}/>
       <CovidInfoContainer/>
       <SocialLinkContainer/>
+      <Footer/>
     </div>
   );
 }
