@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Carusol from './Components/Carusol';
 import IconFeatureContainer from './Components/IconFeatureContainer';
+import CartContainer from './Components/CartContainer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Carusol/>
       <IconFeatureContainer/>
+      <CartContainer/>
     </div>
   );
 }
