@@ -5,6 +5,7 @@ import IconFeatureContainer from './Components/IconFeatureContainer';
 import CartContainer from './Components/CartContainer';
 import XBoxContainer from './Components/XBoxContainer';
 import CovidInfoContainer from './Components/CovidInfoContainer';
+import SocialLinkContainer from './Components/SocialLinkContainer';
 import { ProductCartData, BusinessCartData } from './Utils/data';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <XBoxContainer/>
       <CartContainer data={BusinessCartData}/>
       <CovidInfoContainer/>
+      <SocialLinkContainer/>
     </div>
   );
 }
