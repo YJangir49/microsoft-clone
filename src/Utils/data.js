@@ -6,6 +6,15 @@ import BuCartImg1 from '../Assets/business-cart-1.png';
 import BuCartImg2 from '../Assets/business-cart-2.png';
 import BuCartImg3 from '../Assets/business-cart-3.png';
 import BuCartImg4 from '../Assets/business-cart-4.png';
+import FacebookIcon  from '../Assets/facebook-icon.png';
+import YoutubeIcon  from '../Assets/youtube-icon.png';
+import TwitterIcon  from '../Assets/twitter-icon.png';
+
+export const SocialLinkData = [
+    { id: 1, url: "https://www.facebook.com/MicrosoftIndia", imgSrc: FacebookIcon },
+    { id: 2, url: "https://twitter.com/microsoftindia", imgSrc: TwitterIcon },
+    { id: 3, url: "https://www.youtube.com/user/IndiaMicrosoftVideos", imgSrc: YoutubeIcon },
+]
 
 export const ProductCartData = [
     {

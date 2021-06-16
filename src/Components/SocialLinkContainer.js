@@ -1,13 +1,5 @@
 import React from 'react';
-import FacebookIcon  from '../Assets/facebook-icon.png';
-import YoutubeIcon  from '../Assets/youtube-icon.png';
-import TwitterIcon  from '../Assets/twitter-icon.png';
-
-const SocialLinkData = [
-    { id: 1, url: "https://www.facebook.com/MicrosoftIndia", imgSrc: FacebookIcon },
-    { id: 2, url: "https://twitter.com/microsoftindia", imgSrc: TwitterIcon },
-    { id: 3, url: "https://www.youtube.com/user/IndiaMicrosoftVideos", imgSrc: YoutubeIcon },
-]
+import { SocialLinkData } from '../Utils/data';
 
 const SocialLinkContainer = ( ) => {
     return (
