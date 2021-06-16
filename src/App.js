@@ -4,6 +4,7 @@ import Carusol from './Components/Carusol';
 import IconFeatureContainer from './Components/IconFeatureContainer';
 import CartContainer from './Components/CartContainer';
 import XBoxContainer from './Components/XBoxContainer';
+import { ProductCartData, BusinessCartData } from './Utils/data';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Header/>
       <Carusol/>
       <IconFeatureContainer/>
-      <CartContainer/>
+      <CartContainer data={ProductCartData}/>
       <XBoxContainer/>
+      <CartContainer data={BusinessCartData}/>
     </div>
   );
 }
