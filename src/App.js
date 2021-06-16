@@ -17,7 +17,7 @@ function App() {
       <IconFeatureContainer/>
       <CartContainer data={ProductCartData}/>
       <XBoxContainer/>
-      <CartContainer data={BusinessCartData}/>
+      <CartContainer data={BusinessCartData} title={"For business"}/>
       <CovidInfoContainer/>
       <SocialLinkContainer/>
       <Footer/>
