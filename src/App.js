@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header";
-import Carusol from "./Components/Carusol";
-import IconFeatureContainer from "./Components/IconFeatureContainer";
+import Carousal from "./Components/Carousal";
+import IconsFeatureContainer from "./Components/IconsFeatureContainer";
 import CartItemContainer from "./Components/CartItemContainer";
 import XBoxContainer from "./Components/XBoxContainer";
 import CovidInfoContainer from "./Components/CovidInfoContainer";
@@ -9,12 +9,12 @@ import SocialLinkContainer from "./Components/SocialLinkContainer";
 import Footer from "./Components/Footer";
 import { ProductCartData, BusinessCartData } from "./Utils/data";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
-      <Carusol />
-      <IconFeatureContainer />
+      <Carousal />
+      <IconsFeatureContainer />
       <CartItemContainer data={ProductCartData} />
       <XBoxContainer />
       <CartItemContainer data={BusinessCartData} title={"For business"} />
@@ -23,6 +23,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
