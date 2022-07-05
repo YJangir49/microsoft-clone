@@ -9,7 +9,7 @@ import SocialLinkContainer from "./Components/SocialLinkContainer";
 import Footer from "./Components/Footer";
 import { ProductCartData, BusinessCartData } from "./Utils/data";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
@@ -23,6 +23,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
